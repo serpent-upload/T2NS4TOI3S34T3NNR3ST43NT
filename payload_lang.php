@@ -1,3 +1,3 @@
 <?php
-  echo "salut";
+  show_source("index.php");
 ?>
