@@ -1,3 +1,3 @@
 <?php
-show_source(__FILE__);
+show_source("index.php");
 ?>
