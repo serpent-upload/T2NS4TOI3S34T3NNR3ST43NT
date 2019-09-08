@@ -1,28 +1,21 @@
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
     <channel>
-        <title>CCM</title>
-        <ttl>60</ttl>
-        <description/>
-        <link>https://it.ccm.net/news/</link>
-        <generator>CCM Benchmark</generator>
-        <copyright>© 2019 CCM Benchmark Group</copyright>
-        <webMaster>webmaster@commentcamarche.net</webMaster>
-        <pubDate>Wed, 31 Jul 2019 07:10:06 GMT</pubDate>
-        <lastBuildDate>Sun, 08 Sep 2019 13:52:14 GMT</lastBuildDate>
-
-                    <item>
-                <guid>14362</guid>
-                <title>&xxe;</title>
-                <link>https://it.ccm.net/news/14362-instagram-sticker-donazioni-in-italia</link>
-                <category>Software</category>
-                <pubDate>Wed, 31 Jul 2019 07:10:06 GMT</pubDate>
-                <author>AntonelloCCM</author>
-                                    <enclosure type="image/png" length="0" url="https://img-20.ccm2.net/BbDfBWs5V81bohZ2E5Fa3OyS2uI=/2a386c58f52448948baf9adb7a305d3e/ccm-news/shutterstock-517370548-ink-drop-4374.png"/>
-                                <description>
-                    Lo sticker Instagram per le donazioni tramite le Storie arriva anche in Italia, a 7 mesi dall’annuncio ufficiale.
-
-(CCM) — Instagram apre alle donazioni anche in Italia. Naturalmente non si tratta di invio di denaro ad altri utenti, ma soltanto di donazioni ad associazioni ed enti no profit. Come già annunciato qualche mese fa, il tutto verrà veicolato attraverso gli sticker delle Storie                </description>
-            </item>
-            </channel>
+        <title>Mon site</title>
+        <description>Ceci est un exemple de flux RSS 2.0</description>
+        <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
+        <link>http://www.example.org</link>
+        <item>
+            <title>Actualité N°1</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Actualité N°2</title>
+            <description>Ceci est ma seconde actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu2</link>
+        </item>
+    </channel>
 </rss>
